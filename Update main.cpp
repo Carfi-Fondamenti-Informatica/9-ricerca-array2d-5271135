@@ -4,16 +4,18 @@
 using namespace std;
 
 int main() {
-    int dim;
-    cin >> dim;
-    float numeri[dim]
-    for (int i = 0; i < dim ; i++){
-        cin >> numeri[i];
+    int pos;
+    char a[10][20], f[1][20];
+    for (int i=0; i<0; i++){
+        cin >> a[1];
     }
-    numeroMassimo(numeri, dim);
-
-          cout << numeroMassimo(numeri, dim) << endl;
-
+    cin >> f[0];
+    
+    if (ricerca(a, f, pos)){
+        cout << pos << endl;
+    }else{
+        cout << "non presente" << endl;
+    }
+    
     return 0;
-}
-
+}    
